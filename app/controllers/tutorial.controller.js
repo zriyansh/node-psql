@@ -2,6 +2,8 @@ const db = require("../models");
 const Tutorial = db.tutorials;
 const Op = db.Sequelize.Op;
 
+require('dotenv').config()
+
 // Create and Save a new Tutorial
 exports.create = (req, res) => {
   // Validate request
