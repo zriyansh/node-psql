@@ -13,13 +13,6 @@ const sequelize = new Sequelize(process.env.DB, process.env.USER, process.env.PA
   },
 });
 
-// const sequelize = new Sequelize(process.env.CONNECTION_STRING, {
-//   dialect: 'postgres',
-//   dialectOptions: {
-//     ssl: true // Set this to true if your cloud database requires SSL
-//   }
-// });
-
 const db = {};
 
 db.Sequelize = Sequelize;

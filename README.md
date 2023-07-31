@@ -1,5 +1,32 @@
 # Node.js PostgreSQL CRUD example with Express Rest APIs
 
+
+required .env with values
+```
+HOST=
+USER=postgres
+PASSWORD=
+DB=testdb
+DIALECT=postgres
+POOL_MAX=5
+POOL_MIN=0
+POOL_ACQUIRE=30000
+POOL_IDLE=10000
+```
+
+required .env with values for localhost
+```
+HOST=localhost
+USER=postgres
+PASSWORD=123
+DB=testdb
+DIALECT=postgres
+POOL_MAX=5
+POOL_MIN=0
+POOL_ACQUIRE=30000
+POOL_IDLE=10000
+```
+
 We will build Rest Apis that can create, retrieve, update, delete and find Tutorials by title.
 
 The following table shows overview of the Rest APIs that will be exported:
